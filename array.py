@@ -1,0 +1,8 @@
+scores=list(map(int,input("enter scores separated by spaces:").split()))
+total=sum(scores)
+average=total/len(scores)
+print(" score:",scores)
+print("sum:",total)
+print("average:",average)
+print("maximum score:",max(scores))
+print("minimum score:",min(scores))
